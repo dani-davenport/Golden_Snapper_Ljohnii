@@ -1,0 +1,15 @@
+FILTERS	PARAMETERS	VALUES	BEFORE	AFTER	BLACKLIST	UNITS	COMMENTS
+Filter monomorphic markers	filter.monomorphic		187 / 16 / 1 / 17355 / 22883	187 / 16 / 1 / 17355 / 22883	0 / 0 / 0 / 0 / 0	individuals / strata / chrom / locus / markers	
+Filter markers in common	filter.common.markers		187 / 16 / 1 / 17355 / 22883	187 / 16 / 1 / 17079 / 22406	0 / 0 / 0 / 276 / 477	individuals / strata / chrom / locus / markers	
+Filter individuals based on missingness (with outlier stats or values)	filter.individuals.missing	0.12696325	187 / 16 / 1 / 17079 / 22406	183 / 16 / 1 / 17079 / 22406	4 / 0 / 0 / 0 / 0	individuals / strata / chrom / locus / markers	
+Filter monomorphic markers	filter.monomorphic		183 / 16 / 1 / 17079 / 22406	183 / 16 / 1 / 17062 / 22384	0 / 0 / 0 / 17 / 22	individuals / strata / chrom / locus / markers	
+Filter MAC	filter.mac	3	183 / 16 / 1 / 17062 / 22384	183 / 16 / 1 / 13931 / 17799	0 / 0 / 0 / 3131 / 4585	individuals / strata / chrom / locus / markers	
+Filter coverage min / max	filter.coverage	5 / 300	183 / 16 / 1 / 13931 / 17799	183 / 16 / 1 / 13931 / 17799	0 / 0 / 0 / 0 / 0	individuals / strata / chrom / locus / markers	
+Filter genotyping	filter.genotyping	0.3	183 / 16 / 1 / 13931 / 17799	183 / 16 / 1 / 12768 / 15853	0 / 0 / 0 / 1163 / 1946	individuals / strata / chrom / locus / markers	
+Filter SNPs position on the read	filter.snp.position.read	all	183 / 16 / 1 / 12768 / 15853	183 / 16 / 1 / 12768 / 15853	0 / 0 / 0 / 0 / 0	individuals / strata / chrom / locus / markers	
+Filter markers snp number	filter.snp.number	1	183 / 16 / 1 / 12768 / 15853	183 / 16 / 1 / 10123 / 10123	0 / 0 / 0 / 2645 / 5730	individuals / strata / chrom / locus / markers	
+Filter short ld	filter.short.ld	not filtering	183 / 16 / 1 / 10123 / 10123	183 / 16 / 1 / 10123 / 10123	0 / 0 / 0 / 0 / 0	individuals / strata / chrom / locus / markers	
+detect mixed genomes	ind.heterozygosity.threshold (min/max)	0 1	183 / 16 / 1 / 10123 / 10123	183 / 16 / 1 / 10123 / 10123	0 / 0 / 0 / 0 / 0	individuals / strata / chrom / locus / markers	
+detect duplicate genomes	dup.threshold	0.5	183 / 16 / 1 / 10123 / 10123	182 / 16 / 1 / 10123 / 10123	1 / 0 / 0 / 0 / 0	individuals / strata / chrom / locus / markers	
+Filter monomorphic markers	filter.monomorphic		182 / 16 / 1 / 10123 / 10123	182 / 16 / 1 / 10123 / 10123	0 / 0 / 0 / 0 / 0	individuals / strata / chrom / locus / markers	
+Filter HWE	hw.pop.threshold / midp.threshold	80.05	182 / 16 / 1 / 10123 / 10123	182 / 16 / 1 / 10095 / 10095	0 / 0 / 0 / 28 / 28	individuals / strata / chrom / locus / markers	
